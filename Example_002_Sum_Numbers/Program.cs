@@ -11,9 +11,20 @@
 // Вывод numberA + numberB
 // Конец
 
-int namberA = 3;
-int namberB = 5;
-Console.WriteLine(namberA + namberB);
+int numberA = 3;
+int numberB = 5;
+Console.WriteLine(numberA + numberB);
+Console.WriteLine();
 
-int result = namberA + namberB;
+int result = numberA + numberB;
 Console.WriteLine(result);
+Console.WriteLine();
+// new Random().Next(min, max);  генератор случайных чисел
+// даст случайное число от мин до мах-1 
+
+int numberC = new Random().Next(1, 10);
+Console.WriteLine(numberC);
+int numberD = new Random().Next(1, 10);
+Console.WriteLine(numberD);
+int sum = numberD + numberC;
+Console.WriteLine(sum);
